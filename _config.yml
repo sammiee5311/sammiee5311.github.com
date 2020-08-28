@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyeong Jun An (Sam.An)" "Your Name"
+  name             : "Hyeong Jun An (Sam.An)"
   avatar           : "/assets/images/profile/space.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am interested in Artificial Intelligence, Physics and Workout.<br> Thanks."
   location         : "somewhere"
