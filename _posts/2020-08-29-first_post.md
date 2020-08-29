@@ -8,7 +8,6 @@ tags:
   - Blog
 ---
 
-This is my first writing on this blog.
-This writing's title is {{ page.title }}.
+This is my first writing on blog.<br>
 
 ![](/assets/images/post/spaceship.jpg)
