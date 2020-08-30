@@ -8,8 +8,6 @@ tags:
   - Blog
 ---
 
-This is my first writing on blog.<br>
-
 [Start Blogging](){: .btn .btn--primary }
 
 ![](/assets/images/post/spaceship.jpg)

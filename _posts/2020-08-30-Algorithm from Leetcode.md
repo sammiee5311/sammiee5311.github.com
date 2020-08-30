@@ -165,3 +165,51 @@ Calculate product of elements from **left to right** and Calculate product of el
 Calculate both of product of array that just calculated.
 
 ![](/assets/images/leetcode/leetcode_238.png)
+
+## Trapping Rain Water (leetcode-42)
+
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
+![](/assets/images/leetcode/leetcode_42.png)
+
+#### brute Force
+
+``` python
+for i in range(1, len(height)):
+    left_max = 0
+    right_max = 0
+    left_max = max(height[:i])
+    right_max = max(height[i:len(height)])
+    min_building = min(left_max,right_max)
+    if min_building - height[i] < 0:
+        continue
+    ans += min_building - height[i]
+```
+
+#### storing left_prod and right_prod in array
+
+``` python
+for i in range(1,len(height)):
+    max_left[i] = max(max_left[i-1],height[i])
+
+for i in range(len(height)-2,-1,-1):
+    max_right[i] = max(max_right[i+1],height[i])
+
+for i in range(len(height)):
+    min_building = min(max_left[i], max_right[i])
+    ans += min_building - height[i]
+```
+
+#### two pointers
+
+``` python
+while i <= j:
+    max_left, max_right = max(max_left, height[i]), max(max_right, height[j])
+
+    if max_left <= max_right:
+        total_water += max_left - height[i]
+        i += 1
+    else:
+        total_water += max_right - height[j]
+        j -= 1
+```
