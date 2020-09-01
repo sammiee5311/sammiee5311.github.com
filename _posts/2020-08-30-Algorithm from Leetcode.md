@@ -7,7 +7,14 @@ categories:
 tags:
   - Algorithm
   - Leetcode
+  
+classes: wide
+
+last_modified_at: 2020-08-31
+original_date_label: 2020-08-30
+
 ---
+
 
 ## Reverse Nodes in k-Group (leecode-25)
 
