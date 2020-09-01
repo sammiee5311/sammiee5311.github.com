@@ -10,8 +10,7 @@ tags:
   
 classes: wide
 
-last_modified_at: 2020-08-31
-original_date_label: 2020-08-30
+last_modified_at: 2020-09-01
 
 ---
 
@@ -220,3 +219,21 @@ while i <= j:
         total_water += max_right - height[j]
         j -= 1
 ```
+
+## Subsets II (leetcode-90)
+
+Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
+
+``` python
+def dfs(self, nums, idx, path, output):
+    output.append(path[:])
+
+    for i in range(idx, len(nums)):
+        if i > idx and nums[i] == nums[i-1]:
+            continue
+        path.append(nums[i])
+        self.dfs(nums, i+1, path, output)
+        path.pop()
+```
+
+use dfs to append every elements but not duplicated one. **if i > idx and nums[i] == nums[i-1]** is the key.
