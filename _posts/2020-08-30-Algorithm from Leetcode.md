@@ -237,3 +237,19 @@ def dfs(self, nums, idx, path, output):
 ```
 
 use dfs to append every elements but not duplicated one. **if i > idx and nums[i] == nums[i-1]** is the key.
+
+## Kth Largest Element in an Array (leetcode-215)
+
+Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
+``` python
+heap = []
+for i in nums:
+    if len(heap) < k:
+        heapq.heappush(heap, i)
+    elif i > heap[0]:
+        heapq.heapreplace(heap, i)
+return heap[0]
+```
+
+Idea is to maintain a k size min-heap. Add k element to minheap, for next if element > minheap[0], then pop min and add the element
