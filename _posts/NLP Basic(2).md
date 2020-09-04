@@ -20,3 +20,10 @@ The problem is that the gradient of the reccurent gate is multiplicative while b
 In order not to destroy whole internal states we've just calculated, it is better to pad '0' in the beginning of embedded texts.(not always) <br>
 
 When it needs to be truncated, it is better to truncate at the end of embedded texts due to lose essential information of ditinguishing the text's sentiment.
+
+
+## LSTM
+
+difficult to train
+very long gradient paths
+transfer learning never really worked
