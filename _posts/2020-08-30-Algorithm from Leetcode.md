@@ -253,3 +253,56 @@ return heap[0]
 ```
 
 Idea is to maintain a k size min-heap. Add k element to minheap, for next if element > minheap[0], then pop min and add the element
+
+## Merge k Sorted Lists (leetcode-23)
+You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
+Merge all the linked-lists into one sorted linked-list and return it.
+
+
+#### merge sort
+``` python
+def merge(node1: ListNode, node2: ListNode) -> ListNode:
+    dummy = node = ListNode()
+
+    while node1 and node2:
+        if node1.val < node2.val:
+            node.next = node1
+            node1 = node1.next
+        else:
+            node.next = node2
+            node2 = node2.next
+        node = node.next
+
+    node.next = node1 if node1 else node2
+
+    return dummy.next
+
+if not lists:
+    return
+elif len(lists) == 1:
+    return lists[0]
+
+mid = len(lists) // 2
+left = merge_k_lists(lists[:mid])
+right = merge_k_lists(lists[mid:])
+
+return merge(left, right)
+```
+
+#### heap
+``` python
+heap = []
+
+for node in lists:
+    while node:
+        heapq.heappush(heap, node.val)
+        node = node.next
+
+dummy = node = ListNode()
+
+while heap:
+    node.next = ListNode(heapq.heappop(heap))
+    node = node.next
+
+return dummy.next
+```
