@@ -16,6 +16,7 @@ last_modified_at: 2020-09-06
 
 ## Partition Equal Subset Sum(leetcode-416)
 
+Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 
 #### bottom-up
 ``` python
