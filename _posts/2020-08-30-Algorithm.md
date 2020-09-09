@@ -86,3 +86,24 @@ def topologicalSort(self):
                 queue.append(i) 
         cnt += 1
 ```
+
+## Convert a binary tree to a graph
+
+``` python
+def dfs(node, parent,graph):
+    if not node:
+        return
+
+    if parent:
+        graph[node].append(parent)
+
+    if node.right:
+        graph[node].append(node.right)
+        dfs(node.right, node, graph)
+
+    if node.left:
+        graph[node].append(node.left)
+        dfs(node.left, node, graph)
+                
+dfs(root,None,graph)
+```
