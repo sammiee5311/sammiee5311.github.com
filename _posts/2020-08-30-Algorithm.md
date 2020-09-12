@@ -113,6 +113,8 @@ dfs(root,None,graph)
 
 ![](/assets/images/algorithm/Sieve_of_Eratosthenes.gif)
 
+(from wikipedia)
+
 ``` python
 n = number # range of the number
 a = [False,False] + [True]*(n-1)
