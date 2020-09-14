@@ -10,7 +10,7 @@ tags:
   
 classes: wide
 
-last_modified_at: 2020-09-06
+last_modified_at: 2020-09-14
 
 ---
 
@@ -45,3 +45,27 @@ if remain < 0 or i == len(self.nums):
 self.cache[remain] = self.dfs(remain - self.nums[i], i + 1) or self.dfs(remain, i + 1)
 return self.cache[remain]
 ```
+
+## Find First and Last Position of Element in Sorted Array(leetcode-34)
+
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+``` python
+def search(nums, target):
+    n = len(nums)
+    position = n
+    left,right = 0, n-1
+    while left <= right:
+        mid = (left+right) // 2
+        if nums[mid] >= target:
+            position = mid
+            right = mid-1
+        else:
+            left = mid+1
+    return position
+```
+It is a key to think first positions of target and target+1.<br>
+
+For example, suppose there are nums like 3 3 3 5 5 5 6 7 8 and target is 5. <br>
+
+First, find the first position of '5' and then find the first position of '6'. first position of '6' - 1 will be the last position of '5'.

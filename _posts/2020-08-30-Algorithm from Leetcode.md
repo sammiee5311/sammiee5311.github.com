@@ -167,8 +167,9 @@ for i in range(n-1,-1,-1):
     R *= nums[i]
 ```
 
-Calculate product of elements from **left to right** and Calculate product of elements from **right to left**.<br>
-Calculate both of product of array that just calculated.
+Calculate product of elements from **left+1 to right-1** and Calculate product of elements from **right-1 to left+1**.<br>
+
+Multiply two arrays that are just calcaulated.
 
 ![](/assets/images/leetcode/leetcode_238.png)
 
