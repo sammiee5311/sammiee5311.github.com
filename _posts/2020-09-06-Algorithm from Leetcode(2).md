@@ -69,3 +69,19 @@ It is a key to think first positions of target and target+1.<br>
 For example, suppose there are nums like 3 3 3 5 5 5 6 7 8 and target is 5. <br>
 
 First, find the first position of '5' and then find the first position of '6'. first position of '6' - 1 will be the last position of '5'.
+
+## Minimum Height Trees (leetcode-310)
+
+``` python
+while n > 2:
+    n -= len(leaves)
+    new_leaves = set()
+
+    for leave in leaves:
+        neighbor = graph[leave].pop()
+        graph[neighbor].remove(leave)
+        if len(graph[neighbor]) == 1:
+            new_leaves.add(neighbor)
+```
+
+It is a key to remove every leaves from the graph until 2 nodes left. 
