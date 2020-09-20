@@ -85,3 +85,15 @@ while n > 2:
 ```
 
 It is a key to remove every leaves from the graph until 2 nodes left. 
+
+## Best Time To Buy and Sell Stock (leetcode-121)
+
+If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+
+``` python
+for n in prices:
+    if n < min_:
+        min_ = n
+    else:
+        max_ = max(max_,n-min_)
+```
