@@ -127,3 +127,17 @@ for i in range(2,n+1):
         a[j] = False
 print(primes)
 ```
+
+## Boyer-Moore vote algorithm
+
+``` python
+candidate = 0
+count = 0
+for value in input:
+  if count == 0:
+    candidate = value
+  if candidate == value:
+    count += 1
+  else:
+    count -= 1
+```
