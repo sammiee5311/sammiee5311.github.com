@@ -130,6 +130,8 @@ print(primes)
 
 ## Boyer-Moore vote algorithm
 
+(https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html)
+
 ``` python
 candidate = 0
 count = 0
