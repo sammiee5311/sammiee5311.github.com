@@ -97,3 +97,23 @@ for n in prices:
     else:
         max_ = max(max_,n-min_)
 ```
+
+## Split Array Largest Sum (leetcode-410)
+
+Given an array nums which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays.
+
+``` python
+
+def cnt_p(value):
+    cnt, cur = 0, nums[0]
+    for i in range(1,len(nums)):
+        if cur + nums[i] > value:
+            cur = nums[i]
+            cnt += 1
+        else:
+            cur += nums[i]
+    return cnt
+
+```
+
+It is a key to use **Binary Search**. The search range will be from maximum of the nums's array to sum of the nums's array.
