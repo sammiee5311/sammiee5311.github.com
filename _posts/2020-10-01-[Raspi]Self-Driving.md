@@ -32,7 +32,7 @@ And then, the only region I wanted to detect was half of the image's height. So 
 
 <p float="left">
   <img src="/assets/images/post/raspberry_pi/self_driving/first_try/lines.jpg" width="450" />
-  <img src="/assets/images/post/raspberry_pi/self_driving/first_try/original.jpg" width="450" /> 
+  <img src="/assets/images/post/raspberry_pi/self_driving/first_try/image.jpg" width="450" /> 
 </p>
 
 Lastly, the raspberry pi will calculate # of left lines and right lines in order to move correctly. <br>
