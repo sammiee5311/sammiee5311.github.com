@@ -1,11 +1,11 @@
 ---
-title:  "[Raspi]Self-Driving"
+title:  "[raspi]Self-Driving"
 excerpt: "diary"
 
 categories:
-  - Raspberry_Pi
+  - raspi
 tags:
-  - Raspberry_Pi
+  - raspi
   - diary
 
 classes: wide
@@ -35,15 +35,15 @@ And then, the only region I wanted to detect was half of the image's height. So 
   <img src="/assets/images/post/raspberry_pi/self_driving/first_try/image.jpg" width="450" /> 
 </p>
 
-Lastly, the raspberry pi will calculate # of left lines and right lines in order to move correctly. <br>
+Lastly, the raspberry pi will calculate # of left lines and right lines in order to move correctly. <br
 
-If there are more left lines than right lines, the car will move to left side. (It was not bad but I didn't have enough power to move the all 4 of motors.) <br>
+If there are more left lines than right lines, the car will move to right side. (The accuracy was not that bad but I didn't have enough power to move the all 4 of motors. so it moves little weirdly) <br>
 
 But I wanted to use a deep learning with raspberry pi so I tried to change the way.
 
 ### Second Try
 
-I;ve takena plenty of car course pictures (approximately 2000) to learn machines to use deep running. <br>
+I've takena plenty of car course pictures (approximately 2000) to learn machines to use deep running. <br>
 
 The way I've taken a picture was wrong in order to get the right steering angle. <br>
 
@@ -67,4 +67,7 @@ So I've changed the plan.
 My raspberry pi's sd card was corrupted so I had to format my sd card and re-install the os. It took time to install opencv and other libraries again. <br>
 
 I was kinda tired to think how to solve the time delay and get the right steering angle both.
+
+
+### Fourth try
 
