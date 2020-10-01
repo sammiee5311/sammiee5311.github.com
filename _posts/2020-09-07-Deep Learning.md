@@ -29,4 +29,9 @@ bh and bw could be more than 1. (height, width) can be greater than gird cell. <
 
 ## Adversarial Attack
 
-Adversarial machine learning is a machine learning technique that attempts to fool models by supplying deceptive input. (wikipeida)
+An adversarial attack consists of subtly modifying an original image in such a way that the changes are almost undetectable to the human eye. The modified image is called an adversarial image, and when submitted to a classifier is misclassified, while the original one is correctly classified. <br> (https://medium.com/onfido-tech/adversarial-attacks-and-defences-for-convolutional-neural-networks-66915ece52e7)
+
+![](assets/images/post/deep_learning/adversarial_attack.png)
+
+https://arxiv.org/abs/1412.6572
+{: .notice--info}
