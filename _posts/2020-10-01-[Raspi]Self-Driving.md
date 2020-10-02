@@ -43,20 +43,18 @@ But I wanted to use a deep learning with raspberry pi so I tried to change the w
 
 ### Second Try
 
-I've takena plenty of car course pictures (approximately 2000) to learn machines to use deep running. <br>
-
-The way I've taken a picture was wrong in order to get the right steering angle. <br>
+I've taken a plenty of car course pictures (approximately 2000) to make the machine learn by using a deep learning. <br>
 
 First, The ps4 controller was used because the steering angle could be obtained in a wider range rather than using a keyboard. I could get values of angle between -0.5 and 0.5. <br>
 
-And then, I've coded with OpenCV to save the pictures and the steering angle in X,y lists while the car moving. I made the machine trained with these X(images), y(steering angles) datasets. <br>
+And then, I've coded with OpenCV to save the pictures and the steering angle in X,y lists while the car moving. I made the machine be trained with these X(images), y(steering angles) datasets. <br>
 
 <center><img src="/assets/images/post/raspberry_pi/self_driving/second_try/network_architecture.png" width="450" height="450"></center>
 (https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)
 
-I've used nvidia network architecture to train my model. <br>
+I've used a nvidia network architecture to train my model. <br>
 
-But my model's accuracy was only around 50%. I've figured it out the images and steering angle were not right time.
+But my model's accuracy was only around 50%. I've figured it out the images and steering angle were not right time. <br>
 
 The problem was there was a delay between saving picture and putting steering angle to X,y lists. <br>
 
@@ -65,8 +63,6 @@ So I've changed the plan.
 ### Thrid Try
 
 My raspberry pi's sd card was corrupted so I had to format my sd card and re-install the os. It took time to install opencv and other libraries again. <br>
-
-I was kinda tired to think how to solve the time delay and get the right steering angle both.
 
 
 ### Fourth try
