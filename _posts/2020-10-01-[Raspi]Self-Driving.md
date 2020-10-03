@@ -69,9 +69,9 @@ This time, I tried to classify left,right and forward in order to get better acc
 I've used same architecture as a nvidia architecture. <br>
 
 #### Last 3 result
-loss: 0.3880 - acc: 0.8750 - val_loss: 0.3680 - val_acc: 0.8875
-loss: 0.3339 - acc: 0.8969 - val_loss: 0.3208 - val_acc: 0.9250
-loss: 0.3318 - acc: 0.9062 - val_loss: 0.5883 - val_acc: 0.7250
++ loss: 0.3880 - acc: 0.8750 - val_loss: 0.3680 - val_acc: 0.8875
++ loss: 0.3339 - acc: 0.8969 - val_loss: 0.3208 - val_acc: 0.9250
++ loss: 0.3318 - acc: 0.9062 - val_loss: 0.5883 - val_acc: 0.7250
 {: .notice--info}
 
 I've got around 85% of accuracy, 80% of validation accuracy and 35% of validation loss. <br>
