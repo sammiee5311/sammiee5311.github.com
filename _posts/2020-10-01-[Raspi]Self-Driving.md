@@ -50,7 +50,7 @@ First, The ps4 controller was used because the steering angle could be obtained 
 And then, I've coded with OpenCV to save the pictures and the steering angle in X,y lists while the car moving. I made the machine be trained with these X(images), y(steering angles) datasets. <br>
 
 <center><img src="/assets/images/post/raspberry_pi/self_driving/second_try/network_architecture.png" width="450" height="450"></center>
-(https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)
+<center>(https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)</center>
 
 I've used a nvidia network architecture to train my model. <br>
 
