@@ -74,11 +74,11 @@ I've used same architecture as a nvidia architecture. <br>
 + loss: 0.3318 - acc: 0.9062 - val_loss: 0.5883 - val_acc: 0.7250
 {: .notice--info}
 
-I've got around 85% of accuracy, 80% of validation accuracy and 35% of validation loss. <br>
+I've got around 85% of accuracy, 80% of validation accuracy and 0.35 of validation loss. <br>
 
 However, I've tried to use tensorflow in my raspberry pi to predict a direction of the car. <br>
 
-It was slow to load the model and predict the value so I've decided to use my computer due to the fact that raspberry pi is slow to use deep learning. <br> 
+It was too slow to load the model and predict the value so I've decided to use my computer due to the fact that raspberry pi is slow to use deep learning. <br> 
 
 
 ### Fourth try
