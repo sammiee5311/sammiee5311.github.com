@@ -10,7 +10,7 @@ tags:
 
 classes: wide
 
-last_modified_at: 2020-10-01
+last_modified_at: 2020-10-03
  
 ---
 
@@ -63,6 +63,22 @@ So I've changed the plan.
 ### Thrid Try
 
 My raspberry pi's sd card was corrupted so I had to format my sd card and re-install the os. It took time to install opencv and other libraries again. <br>
+
+This time, I tried to classify left,right and forward in order to get better accuracy. <br>
+
+I've used same architecture as a nvidia architecture. <br>
+
+#### Last 3 result
+loss: 0.3880 - acc: 0.8750 - val_loss: 0.3680 - val_acc: 0.8875
+loss: 0.3339 - acc: 0.8969 - val_loss: 0.3208 - val_acc: 0.9250
+loss: 0.3318 - acc: 0.9062 - val_loss: 0.5883 - val_acc: 0.7250
+{: .notice--info}
+
+I've got around 85% of accuracy, 80% of validation accuracy and 35% of validation loss. <br>
+
+However, I've tried to use tensorflow in my raspberry pi to predict a direction of the car. <br>
+
+It was slow to load the model and predict the value so I've decided to use my computer due to the fact that raspberry pi is slow to use deep learning. <br> 
 
 
 ### Fourth try
