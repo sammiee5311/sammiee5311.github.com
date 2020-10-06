@@ -68,7 +68,7 @@ This time, I tried to classify left,right and forward in order to get better acc
 
 I've used same architecture as a nvidia architecture. <br>
 
-#### Last 3 result
+#### Last 3 results
 + loss: 0.3880 - acc: 0.8750 - val_loss: 0.3680 - val_acc: 0.8875
 + loss: 0.3339 - acc: 0.8969 - val_loss: 0.3208 - val_acc: 0.9250
 + loss: 0.3318 - acc: 0.9062 - val_loss: 0.5883 - val_acc: 0.7250
@@ -83,3 +83,6 @@ It was too slow to load the model and predict the value so I've decided to use m
 
 ### Fourth try
 
+I had been studying socket in order to send & receive data from computer to raspberry pi in both ways. <br>
+
+Every frames on raspberry pi will be sent to computer by using socket. Then saving images and steering angle in X, y lists on computer. <br>
