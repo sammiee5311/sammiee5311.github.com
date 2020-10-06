@@ -7,7 +7,7 @@ categories:
 tags:
   - Algorithm
   
-last_modified_at: 2020-08-30
+last_modified_at: 2020-10-06
 
 ---
 
@@ -143,3 +143,47 @@ for value in input:
   else:
     count -= 1
 ```
+
+## De Bruijn sequence
+
+De Brujin sequences, contating combinations of length n using k digits, have length k^n. <br>
+
+Number of De Brujin sequences is equal to number of Euler cycles, which is K!^K^n-1 / K^n.
+
+![](/assets/images/algorithm/De_bruijn_graph.png)
+
+``` python
+def de_bruijn(k, n: int) -> str:
+    """de Bruijn sequence for alphabet k
+    and subsequences of length n.
+    """
+    try:
+        # let's see if k can be cast to an integer;
+        # if so, make our alphabet a list
+        _ = int(k)
+        alphabet = list(map(str, range(k)))
+    except (ValueError, TypeError):
+        alphabet = k
+        k = len(k)
+
+    a = [0] * k * n
+    sequence = []
+
+    def db(t, p):
+        if t > n:
+            if n % p == 0:
+                sequence.extend(a[1 : p + 1])
+        else:
+            a[t] = a[t - p]
+            db(t + 1, p)
+            for j in range(a[t - p] + 1, k):
+                a[t] = j
+                db(t + 1, t)
+
+    db(1, 1)
+    return "".join(alphabet[i] for i in sequence)
+```
+
++ https://en.wikipedia.org/wiki/De_Bruijn_sequence
++ https://www.youtube.com/watch?v=iPLQgXUiU14&vl=en-GB
+{: .notice--info}
