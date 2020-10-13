@@ -7,7 +7,7 @@ categories:
 tags:
   - Algorithm
   
-last_modified_at: 2020-10-06
+last_modified_at: 2020-10-13
 
 ---
 
@@ -187,3 +187,21 @@ def de_bruijn(k, n: int) -> str:
 + https://en.wikipedia.org/wiki/De_Bruijn_sequence
 + https://www.youtube.com/watch?v=iPLQgXUiU14&vl=en-GB
 {: .notice--info}
+
+## Dijkstra
+
+Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm)[4] is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. (wikipedia)
+
+``` python
+while True:
+    for neighbour, distance in distances[current].items():
+        if neighbour not in unvisited: continue
+        newDistance = currentDistance + distance
+        if unvisited[neighbour] is None or unvisited[neighbour] > newDistance:
+            unvisited[neighbour] = newDistance
+    visited[current] = currentDistance
+    del unvisited[current]
+    if not unvisited: break
+    candidates = [node for node in unvisited.items() if node[1]]
+    current, currentDistance = sorted(candidates, key = lambda x: x[1])[0]
+```
