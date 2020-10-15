@@ -7,7 +7,7 @@ categories:
 tags:
   - Algorithm
   
-last_modified_at: 2020-10-13
+last_modified_at: 2020-10-15
 
 ---
 
@@ -190,7 +190,7 @@ def de_bruijn(k, n: int) -> str:
 
 ## Dijkstra
 
-Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm)[4] is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. (wikipedia)
+Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm) is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. But it does not work with negative numbers (wikipedia)
 
 ``` python
 while True:
@@ -204,4 +204,27 @@ while True:
     if not unvisited: break
     candidates = [node for node in unvisited.items() if node[1]]
     current, currentDistance = sorted(candidates, key = lambda x: x[1])[0]
+```
+
+## Prims
+
+Prim's (also known as Jarník's) algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. (wikipedia)
+
+![](/assets/images/algorithm/Prims.gif)
+
+``` python
+def prims(graph):
+    value = [float('inf')] * n
+    setMst = [False] * n
+    parent = [0] * n
+    value[0] = 0
+    parent[0] = -1
+    for i in range(n-1):
+        u = select_min(setMst,value)
+        setMst[u] = True
+
+        for j in range(n):
+            if graph[u][j] != 0 and setMst[j] == False and value[j] > graph[u][j]:
+                value[j] = graph[u][j]
+                parent[j] = u
 ```
