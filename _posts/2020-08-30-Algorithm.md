@@ -109,7 +109,7 @@ dfs(root,None,graph)
 ```
 
 
-## Sieve_of_Eratosthenes
+## Sieve of Eratosthenes
 
 ![](/assets/images/algorithm/Sieve_of_Eratosthenes.gif)
 
@@ -128,7 +128,7 @@ for i in range(2,n+1):
 print(primes)
 ```
 
-## Boyer-Moore vote algorithm
+## Boyer-Moore vote Algorithm
 
 (https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html)
 
@@ -144,7 +144,7 @@ for value in input:
     count -= 1
 ```
 
-## De Bruijn sequence
+## De Bruijn sequence Algorithm
 
 De Brujin sequences, contating combinations of length n using k digits, have length k^n. <br>
 
@@ -188,25 +188,8 @@ def de_bruijn(k, n: int) -> str:
 + https://www.youtube.com/watch?v=iPLQgXUiU14&vl=en-GB
 {: .notice--info}
 
-## Dijkstra
 
-Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm) is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. But it does not work with negative numbers (wikipedia)
-
-``` python
-while True:
-    for neighbour, distance in distances[current].items():
-        if neighbour not in unvisited: continue
-        newDistance = currentDistance + distance
-        if unvisited[neighbour] is None or unvisited[neighbour] > newDistance:
-            unvisited[neighbour] = newDistance
-    visited[current] = currentDistance
-    del unvisited[current]
-    if not unvisited: break
-    candidates = [node for node in unvisited.items() if node[1]]
-    current, currentDistance = sorted(candidates, key = lambda x: x[1])[0]
-```
-
-## Prims
+## Prims Algorithm
 
 Prim's (also known as Jarník's) algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. (wikipedia)
 
@@ -227,4 +210,39 @@ def prims(graph):
             if graph[u][j] != 0 and setMst[j] == False and value[j] > graph[u][j]:
                 value[j] = graph[u][j]
                 parent[j] = u
+```
+
+## Kruskals Algorithm
+
+## Dijkstra Algorithm
+
+Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm) is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. But it does not work with negative numbers (wikipedia)
+
+``` python
+while True:
+    for neighbour, distance in distances[current].items():
+        if neighbour not in unvisited: continue
+        newDistance = currentDistance + distance
+        if unvisited[neighbour] is None or unvisited[neighbour] > newDistance:
+            unvisited[neighbour] = newDistance
+    visited[current] = currentDistance
+    del unvisited[current]
+    if not unvisited: break
+    candidates = [node for node in unvisited.items() if node[1]]
+    current, currentDistance = sorted(candidates, key = lambda x: x[1])[0]
+```
+
+## Bellman Ford Algorithm
+The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.[1] It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers. (wikipedia)
+
+``` python
+values = [0] + [float('inf')] * N
+for _ in range(N-1):
+    cnt = 0
+    for u,v,w in edges:
+        if values[u] != float('inf') and values[u] + w < values[v]:
+            values[v] = values[u] + w
+            cnt += 1
+    if cnt == 0:
+        break
 ```
