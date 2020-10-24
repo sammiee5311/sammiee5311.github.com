@@ -32,9 +32,9 @@ The q table is 2 dimension which is included tuple number(observation) and each 
 There are 5 actions that are 'minus one', 'plus one' and 'stay' each digits except 'stay'. <br> 
 
 
-
 <center> <img src="/assets/images/q_learning/Figure_1.png"> </center>
 <center>(average of episode rewards)</center>
+
 
 I have learnt q learning from **sentex** Youtuber
 {: .notice--info}
