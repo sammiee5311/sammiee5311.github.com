@@ -1,5 +1,5 @@
 ---
-title:  "[q_learning]Number game"
+title:  "[q_learning]Number Game"
 excerpt: "diary"
 
 categories:
@@ -20,9 +20,9 @@ I've set values like below.
 
 
 ``` python
-EPISODES = 15000        MOVE_PENALTY = 1        ANSWER_REWARD = 50      HALF_REWARD = 20
-epsilon = 0.9           EPS_DECAY = 0.9998      SHOW_EVERY = 500        MIN_VALUES = -300
-LEARNING_RATE = 0.001   DISCOUNT = 0.95         STEP = 600
+EPISODES = 15000        MOVE_PENALTY = -1        ANSWER_REWARD = 50      HALF_REWARD = 20
+epsilon = 0.9           EPS_DECAY = 0.99998      SHOW_EVERY = 500         STEP = 200
+LEARNING_RATE = 0.001   DISCOUNT = 0.95         
 ```
 
 It basically guess the numbers(2 digits) that are randomly set between 0 to 9. <br>
