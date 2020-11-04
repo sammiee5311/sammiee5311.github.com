@@ -21,7 +21,7 @@ I've set values like below.
 
 ``` python
 EPISODES = 100000       COLLISION_PENALTY = 800    POINT_REWARD = 50      ALIVE_REWARD = 1
-epsilon = 0.9           EPS_DECAY = 0.99998        STEP = 500              LEARNING_RATE = 0.3
+epsilon = 0.9           EPS_DECAY = 0.99998        STEP = 500             LEARNING_RATE = 0.3
 DISCOUNT = 0.95         
 ```
 
