@@ -14,7 +14,7 @@ last_modified_at: 2020-11-04
  
 ---
 
-# Number game
+# Flappy Bird
 
 I've set values like below.
 
