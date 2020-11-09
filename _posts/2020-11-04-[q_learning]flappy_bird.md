@@ -25,6 +25,8 @@ epsilon = 0.9           EPS_DECAY = 0.99998        STEP = 500             LEARNI
 DISCOUNT = 0.95         
 ```
 
+<center> <img src="/assets/images/q_learning/play_1.gif"> </center>
+
 <center> <img src="/assets/images/q_learning/Figure_2.png"> </center>
 <center>(average of episode rewards)</center>
 
