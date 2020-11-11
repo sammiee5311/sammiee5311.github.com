@@ -15,9 +15,18 @@ last_modified_at: 2020-10-01
 
 ## sigmoid and tanh
 
+If I have to predict among 2 categories, it's better to use a sigmoid function. However, It's better to use a sofmax fucntion if there are more than 3 categories. <br>
 Sigmoid and Tanh essentially produce non-sparse models because their neurons pretty much always produce an output value. <br>
 It can be occured vanishing gradients problem.
 
+
+## Relu
+
+Relu function is more faster and has less problem with vanishing gradients problem.
+
+## Cross Entropy
+
+Cross Entropy usually comes out with one-hot encoding.
 
 ## specify the bounding boxes
 
