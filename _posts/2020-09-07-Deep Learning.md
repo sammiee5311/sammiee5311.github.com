@@ -15,9 +15,9 @@ last_modified_at: 2020-10-01
 
 ## sigmoid and tanh
 
-If I have to predict among 2 categories, it's better to use a sigmoid function. However, It's better to use a sofmax fucntion if there are more than 3 categories. <br>
+If I have to predict among 2 categories, it's better to use a sigmoid function. However, A softmax function is mostly used with more than 3 categories. <br>
 Sigmoid and Tanh essentially produce non-sparse models because their neurons pretty much always produce an output value. <br>
-It can be occured vanishing gradients problem.
+It can be occured a vanishing gradients problem.
 
 
 ## Relu
@@ -26,7 +26,7 @@ Relu function is more faster and has less problem with vanishing gradients probl
 
 ## Cross Entropy
 
-Cross Entropy usually comes out with one-hot encoding.
+Cross Entropy is usually used with one-hot encoding.
 
 ![](/assets/images/post/deep_learning/cross_entropy.svg)
 
@@ -34,7 +34,7 @@ Cross Entropy usually comes out with one-hot encoding.
 
 Batch Gradient Descent is too slow to calculate loss value. <br>
 Stochastic Gradient Descent is using a part of whole batches. <br>
-Local minima problem can be fixed by using SGD. However, It cannot be accurated.
+Local minima problem can be fixed by using SGD. However, It cannot be 100% accurated.
 
 ## specify the bounding boxes
 
