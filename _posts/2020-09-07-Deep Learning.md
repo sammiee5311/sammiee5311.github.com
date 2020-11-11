@@ -28,6 +28,14 @@ Relu function is more faster and has less problem with vanishing gradients probl
 
 Cross Entropy usually comes out with one-hot encoding.
 
+![](/assets/images/post/deep_learning/cross_entropy.svg)
+
+## Gradient Desent
+
+Batch Gradient Descent is too slow to calculate loss value. <br>
+Stochastic Gradient Descent is using a part of whole batches. <br>
+Local minima problem can be fixed by using SGD. However, It cannot be accurated.
+
 ## specify the bounding boxes
 
 y = [1 bx by bh bw 0 0 0 ~]^T <br>
