@@ -86,3 +86,10 @@ It was too slow to load the model and predict the value so I've decided to use m
 I had been studying socket in order to send & receive data from computer to raspberry pi in both ways. <br>
 
 Every frames on raspberry pi will be sent to computer by using socket. Then saving images and steering angle in X, y lists on computer. <br>
+
+I've tried with around 1000 pictures. However, I had something wrong with pi-camera.. So I had to try with another way.
+
+
+### Fifth try
+
+I watched one of the videos that is about self-driving. One of youtube put white paper on tape so the difference between floor and the tape will be more clearly seen. <br>
