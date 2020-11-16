@@ -117,3 +117,69 @@ def cnt_p(value):
 ```
 
 It is a key to use **Binary Search**. The search range will be from maximum of the nums's array to sum of the nums's array.
+
+## Longest Mountain in Array
+
+Given an array A of integers, return the length of the longest mountain. 
+
+### left, right
+
+``` python
+n = len(A)
+a = [0]*n
+b = [0]*n
+
+for i in range(n-1):
+    if A[i] < A[i+1]:
+        a[i+1] = a[i]+1
+
+
+for i in range(n-1,0,-1):
+    if A[i] < A[i-1]:
+        b[i-1] = b[i]+1
+
+ans = 0
+
+for i in range(n):
+    if a[i] != 0 and b[i] != 0:
+        ans = max(ans,a[i]+b[i])
+
+return ans+1
+```
+
+### 
+
+``` python
+n = len(A)
+up,down,ans = 0,0,0
+
+for i in range(1,n):
+    if A[i-1] == A[i] or (down > 0 and A[i-1] < A[i]):
+        up = down = 0
+    if A[i-1] < A[i]:
+        up += 1
+    if A[i-1] > A[i]:
+        down += 1
+    if up and down:
+        ans = max(ans, up + down + 1)
+
+return ans
+```
+
+###
+
+``` python
+n = len(A)
+l,r,ans = 0,0,0
+
+for i in range(1,n-1):
+    if A[i-1] < A[i] > A[i+1]:
+        l = r = i
+        while l > 0 and A[l-1] < A[l]:
+            l -= 1
+        while r < n-1 and A[r+1] < A[r]:
+            r += 1
+        ans = max(ans, r-l+1)
+
+return ans
+```
