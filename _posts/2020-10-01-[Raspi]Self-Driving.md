@@ -10,7 +10,7 @@ tags:
 
 classes: wide
 
-last_modified_at: 2020-10-03
+last_modified_at: 2020-11-18
  
 ---
 
@@ -93,3 +93,8 @@ I've tried with around 1000 pictures. However, I had something wrong with pi-cam
 ### Fifth try
 
 I watched one of the videos that is about self-driving. One of youtube put white paper on tape so the difference between floor and the tape will be more clearly seen. <br>
+
+I've got approximately 70% of accuracy but still it needs to be more higher accuracy in order to not move out of the lines. <br>
+
+I have to adjust the data by myself then it will get more higher accuracy.
+
