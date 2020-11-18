@@ -7,7 +7,7 @@ categories:
 tags:
   - GCN
 
-last_modified_at: 2020-10-03
+last_modified_at: 2020-11-18
  
 ---
 
@@ -19,3 +19,5 @@ Graph convolutional networks are a relatively new approach, emerging from the ne
 
 https://tkipf.github.io/graph-convolutional-networks/
 {: .notice--info}
+
+<center> <img src="/assets/images/GCN/mathematical expression_1.png"> </center>
