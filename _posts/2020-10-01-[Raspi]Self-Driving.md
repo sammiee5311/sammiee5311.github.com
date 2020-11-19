@@ -92,7 +92,7 @@ I've tried with around 1000 pictures. However, I had something wrong with pi-cam
 
 ### Fifth try
 
-I watched one of the videos that is about self-driving. One of youtube put white paper on tape so the difference between floor and the tape will be more clearly seen. <br>
+I watched one of the videos that is about self-driving. One of youtubers(murtaza workshop) put white paper on tape so the difference between floor and the tape will be more clearly seen. <br>
 
 I've got approximately 70% of accuracy but still it needs to be more higher accuracy in order to not move out of the lines. <br>
 
