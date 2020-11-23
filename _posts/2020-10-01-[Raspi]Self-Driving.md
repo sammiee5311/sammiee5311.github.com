@@ -16,6 +16,8 @@ last_modified_at: 2020-11-18
 
 # Self Driving
 
+https://github.com/sammiee5311/raspberry_pi/tree/master/self_driving_car
+
 ### First Try
 
 I've tried to use a camera to detect the tape on the floor so that the machine can measure which direction has to be selected. <br>
