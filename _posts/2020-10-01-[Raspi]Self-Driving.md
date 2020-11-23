@@ -98,3 +98,8 @@ I've got approximately 70% of accuracy but still it needs to be more higher accu
 
 I have to adjust the data by myself then it will get more higher accuracy.
 
+<p float="left">
+  <img src="/assets/images/post/raspberry_pi/self_driving/fifth_try/car.gif" width="450" />
+</p>
+
+It worked pretty well.
