@@ -36,5 +36,5 @@ There are 5 actions that are 'minus one', 'plus one' and 'stay' each digits exce
 <center>(average of episode rewards)</center>
 
 
-I have learnt q learning from **sentex** Youtuber
+I have learnt q learning from **sentex** Youtuber.
 {: .notice--info}
