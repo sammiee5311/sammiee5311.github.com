@@ -42,4 +42,4 @@ It detects well because I've taken pictures over 500 pictures and trained it ove
 
 However, It was slow in order to detect object and get the distance as well. <br>
 
-### yolov5 object detection
+### yolov3-tiny object detection
