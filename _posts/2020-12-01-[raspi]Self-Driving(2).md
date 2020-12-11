@@ -43,3 +43,6 @@ It detects well because I've taken pictures over 500 pictures and trained it ove
 However, It was slow in order to detect object and get the distance as well. <br>
 
 ### yolov3-tiny object detection
+
+
+<center><img src="/assets/images/post/raspberry_pi/self_driving/yolo/object_detection.gif" width="450" height="450"></center>
