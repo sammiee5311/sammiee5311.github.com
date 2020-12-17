@@ -24,7 +24,7 @@ I've added a ultrasonic module on my raspberry pi so that it will be stopped if 
 
 ### yolov3 object detection
 
-I've tried to detect object with yolov3 and used one of the statues which is at my house. <br>
+I've tried to detect an object with yolov3 and used one of the statues which is at my house. <br>
 
 <center><img src="/assets/images/post/raspberry_pi/self_driving/yolo/lizard.jpg" width="450" height="450"></center>
 this is the picture of the statue.
@@ -40,9 +40,10 @@ Those are some of pictures which have been used when yolov3 is trained.
 
 It detects well because I've taken pictures over 500 pictures and trained it over 8 hours. <br>
 
-However, It was slow in order to detect object and get the distance as well. <br>
+However, It was slow in order to detect an object and get the distance as well. <br>
 
 ### yolov3-tiny object detection
 
+It worked quite well with yolov3-tiny to detect the statue and get the prediction of steering values.
 
 <center><img src="/assets/images/post/raspberry_pi/self_driving/yolo/object_detection.gif" width="450" height="450"></center>
