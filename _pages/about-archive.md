@@ -4,8 +4,43 @@ title: "About"
 permalink: /about/
 excerpt: "about-archive.md"
 last_modified_at: 2020-09-02
-toc: true
+<!--toc: true-->
 
 ---
 
-About me
+# HYEONG JUN AN 
+
+- A software engineering student who is interested in Artificial Intelligence, especially computer vision. I have a knowledge of programming and deep learning in order to build a software. (3rd year of university) <br>
+
+## Projects
+
++ ### Self-Driving Car
+    - It decides a steering value by using Convolution Neural Network in order to drive itself.
+    - [to see code](https://github.com/sammiee5311/raspberry_pi/tree/master/self_driving_car)
+    
+    - #### Motivation
+        - Among the rapid entry into the Fourth Industrial Revolution, self-driving cars are easily accessible and have many things to learn. <br>
+
+    
++ ### Self-Inform
+    - It is a program which is automatically informing wanted people through the camera.
+    - [to see code](https://github.com/sammiee5311/self_inform)
+    
+    - #### Motivation 
+        - There are a number of criminal activities nowadays, I wanted to make a program that make finding people easier. <br>
+
++ ### Facial Expression
+    - A program that recommends some activities according to a person's expression like playing music.
+    - [to see code](https://github.com/youmn327/dataset)s
+
+
+## SKILLS
+
+- Programming
+    -  Python / C / C++ / MySQL / R
+
+- Data structures
+
+- Deep Learning
+
+
