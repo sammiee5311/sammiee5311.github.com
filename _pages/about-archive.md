@@ -31,7 +31,7 @@ last_modified_at: 2020-09-02
 
 + ### Facial Expression
     - A program that recommends some activities according to a person's expression like playing music.
-    - [to see code](https://github.com/youmn327/dataset)s
+    - [to see code](https://github.com/youmn327/dataset)
 
 
 ## SKILLS
