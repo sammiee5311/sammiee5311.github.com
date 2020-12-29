@@ -3,7 +3,7 @@
 title: "About"
 permalink: /about/
 excerpt: "about-archive.md"
-last_modified_at: 2020-09-02
+last_modified_at: 2020-12-29
 <!--toc: true-->
 
 ---
@@ -17,6 +17,7 @@ last_modified_at: 2020-09-02
 + ### Self-Driving Car
     - It decides a steering value by using Convolution Neural Network in order to drive itself.
     - [to see code](https://github.com/sammiee5311/raspberry_pi/tree/master/self_driving_car)
+    - [diray 1](https://sammiee5311.github.io/raspi/Raspi-Self-Driving/) [diray 2](https://sammiee5311.github.io/raspi/raspi-Self-Driving(2)/)
     
     - #### Motivation
         - Among the rapid entry into the Fourth Industrial Revolution, self-driving cars are easily accessible and have many things to learn. <br>
@@ -42,5 +43,15 @@ last_modified_at: 2020-09-02
 - Data structures
 
 - Deep Learning
+
+
+## PERSONAL SKILLS
+
+- Efficiently work in team-based environments.
+
+- Able to quickly acquire new skills.
+
+- Thinks logically and possess problem-solving skills.
+
 
 

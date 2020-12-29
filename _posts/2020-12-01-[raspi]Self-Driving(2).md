@@ -20,11 +20,11 @@ https://github.com/sammiee5311/raspberry_pi/tree/master/self_driving_car
 
 ### measuring the distance between the car and any objects.
 
-I've added a ultrasonic module on my raspberry pi so that it will be stopped if there is any wall in front of it.
+I added a ultrasonic module on my raspberry pi so that it will be stopped if there is any wall in front of it.
 
 ### yolov3 object detection
 
-I've tried to detect an object with yolov3 and used one of the statues which is at my house. <br>
+I tried to detect an object with yolov3 and used one of the statues which is at my house. <br>
 
 <center><img src="/assets/images/post/raspberry_pi/self_driving/yolo/lizard.jpg" width="450" height="450"></center>
 this is the picture of the statue.
