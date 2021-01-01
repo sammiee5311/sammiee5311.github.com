@@ -10,7 +10,7 @@ tags:
   
 classes: wide
 
-last_modified_at: 2020-09-14
+last_modified_at: 2021-01-01
 
 ---
 
@@ -183,3 +183,28 @@ for i in range(1,n-1):
 
 return ans
 ```
+
+
+## Pseudo-Palindromic Paths in a Binary Tree (leetcode-1457)
+
+Given a binary tree where node values are digits from 1 to 9. A path in the binary tree is said to be pseudo-palindromic if at least one permutation of the node values in the path is a palindrome.
+
+```python
+def dfs(node, seen):
+    nonlocal ans
+
+    seen ^= (1 << node.val)
+
+    if node.left:
+        dfs(node.left, seen)
+    if node.right:
+        dfs(node.right, seen)
+
+    if not node.left and not node.right:
+        if seen & (seen-1) == 0:
+            ans += 1
+```
+
+![](/assets/images/leetcode/leetcode_1457.png)
+
+It is a key to use bitmask in order to use less space complexity.
