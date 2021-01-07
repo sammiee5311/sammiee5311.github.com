@@ -3,7 +3,7 @@
 title: ""
 permalink: /about/
 excerpt: "about-archive.md"
-last_modified_at: 2020-12-29
+last_modified_at: 2020-01-07
 <!--toc: true-->
 
 ---
@@ -33,6 +33,13 @@ last_modified_at: 2020-12-29
 + ### Facial Expression
     - A program that recommends some activities according to a person's expression like playing music.
     - [to see code](https://github.com/sammiee5311/facial_expression)
+
++ ### Recycling machine (In Progress)
+    - A machine that automatically sorts out recyclables and then gives rewards to people.
+    - [to see code](https://github.com/sammiee5311/capstone_design)
+    
+    - #### Motivation
+        - COVID-19 impacts on the recycling industry. Nowadays, a number of people order delivery food more than before due to the corona-virus. It is an important thing that people should recycle better for sustainable living.
 
 
 ## SKILLS
