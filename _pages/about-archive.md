@@ -12,7 +12,7 @@ last_modified_at: 2020-01-07
 
 - A software engineering student who is interested in Artificial Intelligence, especially computer vision. I have a knowledge of programming and deep learning in order to build a software. (3rd year of university) <br>
 
-## Projects
+## PROJECTS
 
 + ### Self-Driving Car
     - It decides a steering value by using Convolution Neural Network in order to drive itself.
@@ -42,7 +42,7 @@ last_modified_at: 2020-01-07
     - #### Motivation
         - COVID-19 impacts on the recycling industry. Nowadays, a number of people order delivery food more than before due to the corona-virus. It is an important thing that people should recycle better for sustainable living.
 
-## Award
+## AWARD
 
 + Global Capstone Design
     - Siliver Prize
