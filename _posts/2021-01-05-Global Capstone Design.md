@@ -47,3 +47,9 @@ When user pushes the button,  the other camera will be turned on and waiting for
 2.    Wait until the machine detect whether it can be recycled or not.  <br>
 3.    If the item is available to recycle, it will fell down in the trash bin. <br>
 4.    Get the reward depends on how many you put and which object you put. <br>
+
+## What i felt about Global Capstone Design
+
+It was a good experience to me to do project with other people. I've never done project with somone so not only make better but also having fun with them. <br>
+
+I wish i could have more opportunities like this.
