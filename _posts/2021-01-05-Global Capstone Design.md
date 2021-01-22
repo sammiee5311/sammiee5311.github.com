@@ -52,4 +52,4 @@ When user pushes the button,  the other camera will be turned on and waiting for
 
 It was a good experience to me to do project with other people. I've never done project with somone so not only make better but also having fun with them. <br>
 
-I wish i could have more opportunities like this.
+I wish I could have more opportunities like this.
