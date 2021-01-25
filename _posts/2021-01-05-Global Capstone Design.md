@@ -42,11 +42,34 @@ When user pushes the button,  the other camera will be turned on and waiting for
 <center> <img src="/assets/images/capstone/system_design.png"> </center>
 <center>System Design</center>
 
+## Model
+
+<center> <img src="/assets/images/capstone/model_img.png"> </center>
+<center>Model</center>
+
+This is our basic model that we have built. We could make it with 3d printer, however we did not have enough time to print whole boards of the machine. <br>
+
+Instead, we used acrylic plates in order to build it.
+
+
+## Demonstraion
+
+<center> <img src="/assets/images/capstone/demonstration_1.gif"> </center>
+<center>Demonstrain I</center>
+
+As you can see, It detects the object and fell down in the right bin.
+
+<center> <img src="/assets/images/capstone/demonstration_2.gif"> </center>
+<center>Demonstrain II</center>
+ 
+On this image, It detects wheather it is available to recycle or not.  
+
 ## Procedures
 1.    Put any recycling items in the machine. <br>
 2.    Wait until the machine detect whether it can be recycled or not.  <br>
 3.    If the item is available to recycle, it will fell down in the trash bin. <br>
 4.    Get the reward depends on how many you put and which object you put. <br>
+
 
 ## What i felt about Global Capstone Design
 
