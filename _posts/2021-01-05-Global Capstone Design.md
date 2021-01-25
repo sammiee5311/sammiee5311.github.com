@@ -46,6 +46,7 @@ When user pushes the button,  the other camera will be turned on and waiting for
 
 <center> <img src="/assets/images/capstone/model_img.png"> </center>
 <center>Model</center>
+<br>
 
 This is our basic model that we have built. We could make it with 3d printer, however we did not have enough time to print whole boards of the machine. <br>
 
@@ -56,12 +57,12 @@ Instead, we used acrylic plates in order to build it.
 
 <center> <img src="/assets/images/capstone/demonstration_1.gif"> </center>
 <center>Demonstrain I</center>
-
+<br>
 As you can see, It detects the object and fell down in the right bin.
 
 <center> <img src="/assets/images/capstone/demonstration_2.gif"> </center>
 <center>Demonstrain II</center>
- 
+<br>
 On this image, It detects wheather it is available to recycle or not.  
 
 ## Procedures
