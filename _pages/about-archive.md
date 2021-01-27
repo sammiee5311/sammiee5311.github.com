@@ -45,7 +45,7 @@ last_modified_at: 2020-01-07
 ## AWARD
 
 + Global Capstone Design
-    - Siliver Prize
+    - Silver Prize
 
 
 ## SKILLS
