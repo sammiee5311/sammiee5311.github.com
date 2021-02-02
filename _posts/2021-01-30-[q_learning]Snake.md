@@ -20,4 +20,14 @@ Firstly, I've used an observation as differences between coordinates of fruit an
 
 So I searched some of youtube videos that showed how to use CNN with q learning. There is [Python Enginner](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA) Youtuber. <br>
 
-I've learnt from him a lot about Deep Q Learning. So I refered to his code.
+I've learnt from him a lot about Deep Q Learning. So I refered to his code. <br>
+
+After I learned from him, I used the observations same as him and it worked out well.
+
+The observations are 4 directions of danger areas, current direction, 4 directions of fruit. (Meaning of 4 directions is that left, right, down and up from the snake head) <br>
+
+<center> <img src="/assets/images/q_learning/snake_test.gif"> </center>
+<center>(result)</center>
+
+<center> <img src="/assets/images/q_learning/Figure_3.png"> </center>
+<center>(average of episode rewards)</center>
