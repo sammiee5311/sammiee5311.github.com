@@ -28,9 +28,6 @@ for right in range(1,len(heights)):
 
 #### Two Pointer
 ``` python
-
-left, right = 0, len(heights)
-
 while left < right:
     h = min(heights[left], heights[right])
     res = max(res, h*(right-left))
