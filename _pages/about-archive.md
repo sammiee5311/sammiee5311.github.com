@@ -41,6 +41,10 @@ last_modified_at: 2020-01-07
     - #### Motivation
         - COVID-19 impacts on the recycling industry. Nowadays, a number of people order delivery food more than before due to the corona-virus. It is an important thing that people should recycle better for sustainable living.
 
++ ### 3 dimensions snake game (Jan 2021 - Feb 2021)
+    - It is a game that is made easier for users to see the locations of the fruit and the snake by using Azure Kinect.
+    - [to see code](https://github.com/sammiee5311/3_dimensions_snake_game)
+
 ## AWARD
 
 + Global Capstone Design (Jan 2021)
@@ -50,7 +54,7 @@ last_modified_at: 2020-01-07
 ## SKILLS
 
 - Programming
-    -  Python / C / C++ / MySQL / R
+    -  Python / C / C++ / C# / MySQL / R
 
 - Data structures
 
