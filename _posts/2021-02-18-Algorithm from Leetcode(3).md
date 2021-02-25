@@ -37,3 +37,23 @@ while left < right:
     else:
         left += 1
 ```
+
+## Maximum Profit in Job Scheduling(leetcode-1235)
+
+You're given the startTime, endTime and profit arrays, return the maximum profit you can take such that there are no two jobs in the subset with overlapping time range.
+
+#### Dynamic Programming & Binary Search
+``` python
+jobs = sorted(zip(startTime,endTime,profit), key=lambda x:x[1])
+e_time = [e for _,e,_ in jobs]
+
+for i in range(1, len(profits)):
+    start, end, profit = jobs[i][0], jobs[i][1], jobs[i][2]
+
+    dp[i] = dp[i-1]
+
+    idx = bisect.bisect_right(e_time, start) - 1
+    dp[i] = max(dp[i], (dp[idx] if idx >= 0 else 0) + profit)
+```
+
+It is a key to sort by startTime or endTime and store startTime or endTime in the dp array.
