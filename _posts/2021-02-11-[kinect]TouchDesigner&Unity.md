@@ -28,9 +28,9 @@ Can't wait to see other effects with touchdesigner.
 
 After I watched [Youtube Video](https://www.youtube.com/watch?v=B_UIfFA77pk), I wanted to try to make a snake game which is 3 dimensions with Azure Kinect. <br>
 
-<center> <img src="/assets/images/kinect/kinect/unity/3d_test.gif"> </center>
+<center> <img src="/assets/images/kinect/unity/3d_test.gif"> </center>
 <center>3d dimensions snake 1</center>
 
-<center> <img src="/assets/images/kinect/kinect/unity/3d_test(2).gif"> </center>
+<center> <img src="/assets/images/kinect/unity/3d_test(2).gif"> </center>
 <center>3d dimensions snake 2</center>
 
