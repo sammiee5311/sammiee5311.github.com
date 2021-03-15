@@ -42,7 +42,7 @@ last_modified_at: 2020-01-07
         - COVID-19 impacts on the recycling industry. Nowadays, a number of people order delivery food more than before due to the corona-virus. It is an important thing that people should recycle better for sustainable living.
 
 + ### 3 dimensions snake game (Jan 2021 - Feb 2021)
-    - It is a game that is made easier for users to see the locations of the fruit and the snake by using Azure Kinect.
+    - It is a game that is made easier for users to see the locations(x,y and z coordinates) of the fruit and the snake by using Azure Kinect.
     - [to see code](https://github.com/sammiee5311/3_dimensions_snake_game)
 
 ## AWARD
