@@ -1,13 +1,10 @@
 ---
-title:  "To do"
-excerpt: "to do list"
 
-categories:
-  - Todo
-tags:
-  - Todo
-  
+title: ""
+permalink: /todo/
+excerpt: "about-archive.md"
 last_modified_at: 2021-03-24
+<!--toc: true-->
 
 ---
 
