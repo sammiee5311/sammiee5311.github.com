@@ -28,7 +28,8 @@ last_modified_at: 2021-03-24
 + ~~Leetcode 300 problems~~ (2020-10)
 + ~~Leetcode 400 problems~~ (2020-11)
 + ~~Leetcode 500 porblems~~ (2021-01)
-+ Leetcode 600 problems
++ ~~Leetcode 600 problems~~ (2020-04) 
++ Leetcode 700 problems
 
 ### Computer
 + ~~MIT Introduction to Deep Learning~~ (2020-10)
