@@ -3,7 +3,7 @@
 title: ""
 permalink: /todo/
 excerpt: "todo-archive.md"
-last_modified_at: 2021-03-24
+last_modified_at: 2021-04-27
 <!--toc: true-->
 
 ---
@@ -34,7 +34,7 @@ last_modified_at: 2021-03-24
 ### Computer
 + ~~MIT Introduction to Deep Learning~~ (2020-10)
 + Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
-+ MIT 6.824: Distributed Systems
++ ~~MIT 6.824: Distributed Systems~~ (2020-04) 
 
 ## Projects
 + ~~Self-Driving Car~~ (2020-11)
