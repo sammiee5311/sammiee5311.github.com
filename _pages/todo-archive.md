@@ -13,7 +13,7 @@ last_modified_at: 2021-04-27
 ## Books
 + ~~Reality is not what it seems - Carlo Rovelli~~ (2020-09)
 + ~~The order of time - Carlo Rovelli~~ (2020-09)
-+ Brief answers to the big questions - Stephen Hawking
++ ~~Brief answers to the big questions - Stephen Hawking~~ (2021-05)
 + ~~Now - Richard A. Muller~~ (2020-10)
 + ~~Deep Leanrning With Python~~ (2020-12)
 + ~~No Rules Rules: Netflix and the Culture of Reinvention - Erin Meyer and Reed Hastings~~ (2021-01)
