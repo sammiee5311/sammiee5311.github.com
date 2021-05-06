@@ -22,9 +22,10 @@ last_modified_at: 2020-01-07
     - #### Motivation
         - Among the rapid entry into the Fourth Industrial Revolution, self-driving cars are easily accessible and have many things to learn. <br>
 
-+ ### Self-Inform (Sep 2020 – Nov 2020)
-    - It is a program which is automatically informing wanted people through the camera.
-    - [to see code](https://github.com/sammiee5311/self_inform)
++ ### find_missing_people (Sep 2020 – Nov 2020)
+    - It is a program which is automatically finding missing people through the camera(ex. self-driving car).
+    - [to see code](https://github.com/sammiee5311/find_missing_people)
+    - (Use Django framework to make website and interact with it. In Progress)
     
     - #### Motivation 
         - There are a number of criminal activities nowadays, I wanted to make a program that make finding people easier. <br>
@@ -44,6 +45,13 @@ last_modified_at: 2020-01-07
 + ### 3 dimensions snake game (Jan 2021 - Feb 2021)
     - It is a game that is made easier for users to see the locations(x,y and z coordinates) of the fruit and the snake by using Azure Kinect.
     - [to see code](https://github.com/sammiee5311/3_dimensions_snake_game)
+    
++ ### Medicine vending machine (Mar 2021 - Present)
+    - It is a machine that allows people to get medicine at any time through a video call with pharmacists.
+    - [to see code](https://github.com/sammiee5311/medicine_vending_machine)
+    
+    - #### Motivation
+        - Many people complain about not only getting medicine at working hours but also hard to get it in underdeveloped areas.
 
 ## AWARD
 
