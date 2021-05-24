@@ -16,6 +16,8 @@ classes: wide
 
 [code](https://github.com/sammiee5311/medicine_vending_machine)
 
+[medicine vending machine(2)](https://sammiee5311.github.io/capston/Medicine-Vending-Machine(2)/)
+
 This year is the last year at my university, so my friends and I are going to start a project in order to graduate.<br>
 
 We came up with some ideas for what we are going to make which are ‘smart farm’, ‘traffic accident CCTV and ‘medicine vending machine’. First, we chose a smart farm idea. We had not only built a machine that drives itself but also builds a drone in order to achieve our plan. So we have decided to choose the ‘medicine vending machine’ idea.<br>
