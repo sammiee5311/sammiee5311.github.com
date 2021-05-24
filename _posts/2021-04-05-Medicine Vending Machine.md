@@ -43,10 +43,11 @@ medicine table | machine table | order table
 
 As on the above table, we use medicine, machine and order tables. There is a video table too which we haven't finished yet. <br>
 
-We've made a webpage that allows a user to buy medicines on machine. The webpage was created with nodejs and has 2 main features. <br>
+We've made a webpage that allows a user to buy medicines on machine. The webpage was created with nodejs and has 3 main features. <br>
 - First, by making a video call, the pharmacist consults with the user and discharges the needed medicine remotely.
 - Second, we'll record which medicines sell the most in the area, and we'll use this data in the future.
+- Last, The machine recommends using the condition mentioned by the user (Natural Language Processing).
 
-temporary external | temporary main | temporary general | 
-:------------: | :-----------:  | :-----------:  |
+temporary external | temporary main | temporary general 
+:------------: | :-----------:  | :-----------:  
 <img src="/assets/images/medicine_vending_machine/temporary_web1.png" width="720">  | <img src="/assets/images/medicine_vending_machine/temporary_web0.png" width="720"> | <img src="/assets/images/medicine_vending_machine/temporary_web2.png" width="720">
