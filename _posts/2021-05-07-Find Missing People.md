@@ -18,7 +18,7 @@ classes: wide
 
 After reading a few articles about the missing people, I've started this project thinking how to find the missing people more effectively. <br>
 
-In addition to CCTV cameras, cmaeras of self-driving car which is one of the main technologies of the Fourth Industrial Revolution era are used to compare the face of the person registered on the server and find the missing person. <br>
+In addition to CCTV cameras, cameras of self-driving car which is one of the main technologies of the Fourth Industrial Revolution era are used to compare the face of the person registered on the server and find the missing person. <br>
 
 I used Python for a main langauage, JavaScript for a few web features, Django framework and PostgreSQL for a database. <br>
 
