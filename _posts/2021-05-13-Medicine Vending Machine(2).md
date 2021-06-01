@@ -1,13 +1,13 @@
 ---
 title:  "Medicine Vending Machine(2)"
-excerpt: "Note"
+excerpt: "diary"
 
 categories:
   - Capston
 tags:
   - Capston
 
-last_modified_at: 2020-05-13
+last_modified_at: 2020-06-01
 
 classes: wide
   
@@ -26,6 +26,24 @@ We used an Arduino Mega, a Raspberry Pi 4, motors, a microphone, a touch screen,
 
 We finally manage to build a prototype of our machine. <br>
 
-| This is the prototype. |
+ 
+| Prototype | 
 | :------------: |
-| <img src="/assets/images/medicine_vending_machine/prototype_test.gif" width="720">  |
+| <img src="/assets/images/medicine_vending_machine/prototype_test.gif">|
+
+
+After few weeks, We've ordered acrylic plates so that the machine will be looked better. <br>
+
+We had few issues which are a touchscreen issue, a motor issue, etc. The reason why a touchscreen issue was the worst issue is that we've tried to rotate the screen 90 degrees, but it does not work quite well. <br>
+
+We could rotate the screen but not the touch calibrations in order to sync the screen location and the touch location. The Raspberry Pi 4’ booting was only available with CLI. So we have no choice to reformat the Raspberry Pi 4. <br>
+
+In a Few days, The touchscreen worked very well. <br>
+
+
+This is the result that builds with acrylic plates <br>
+
+
+| Completed machine | Completed machine |
+| :------------: | :------------: |
+| <img src="/assets/images/medicine_vending_machine/machine0.jpg"> | <img src="/assets/images/medicine_vending_machine/machine1.jpg"> |
