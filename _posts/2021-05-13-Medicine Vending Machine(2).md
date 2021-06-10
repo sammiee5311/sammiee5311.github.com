@@ -45,5 +45,10 @@ This is the result that builds with acrylic plates <br>
 
 
 | Completed machine | Completed machine |
-| :------------: | :------------: |
+| :------------: | :------------: | 
 | <img src="/assets/images/medicine_vending_machine/machine0.jpg"> | <img src="/assets/images/medicine_vending_machine/machine1.jpg"> |
+
+
+| Demonstration  |
+| :------------: |
+| <img src="/assets/images/medicine_vending_machine/final.gif" width="450"> |
