@@ -57,3 +57,50 @@ for i in range(1, len(profits)):
 ```
 
 It is a key to sort by startTime or endTime and store startTime or endTime in the dp array.
+
+## Range Sum Query - Mutable(leetcode-307)
+
+``` python
+# time complexity :  update : O(U*log(n)) / query : O(Q*log(n))
+# space completxity : O(sizeof(tree)) == O(2**h)
+
+class SegmentTree:
+    def __init__(self, n, si, nums, left, right):
+        h = int(math.ceil(math.log(n) / math.log(2)))
+        size = 2*int(2**h + 1)
+        self.tree = [0] * (2*size)
+        self.build_tree(si, nums, left, right)
+        
+    def build_tree(self, si, nums, left, right):
+        if left == right:
+            self.tree[si] = nums[left]
+            return nums[left]
+        
+        mid = (left + right) // 2
+        self.tree[si] = self.build_tree(2*si+1, nums, left, mid) + self.build_tree(2*si+2, nums, mid+1, right)
+        
+        return self.tree[si]
+        
+    def query(self, si, sl, sr, left, right):
+        if left <= sl and sr <= right:
+            return self.tree[si]
+        
+        if left > sr or sl > right:
+            return 0
+        
+        mid = (sl + sr) // 2
+        return self.query(2*si+1, sl, mid, left, right) + self.query(2*si+2, mid+1, sr, left, right)
+    
+    def update(self, si, sl, sr, idx, diff):
+        if idx < sl or sr < idx:
+            return
+        
+        self.tree[si] += diff
+        
+        if sl != sr:
+            mid = (sl + sr) // 2
+            self.update(2*si+1, sl, mid, idx, diff)
+            self.update(2*si+2, mid+1, sr, idx, diff)
+```
+
+Implement a Segment Tree is the key.
