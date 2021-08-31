@@ -103,4 +103,51 @@ class SegmentTree:
             self.update(2*si+2, mid+1, sr, idx, diff)
 ```
 
-Implement a Segment Tree is the key.
+Implementing a Segment Tree is the key.
+
+## Maximum Width Ramp(leetcode-962)
+
+A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
+
+#### Heap
+``` python
+# time complexity : O(nlogn)
+# space complexity : O(n)
+
+while heap:
+    cur_val, cur_idx = heapq.heappop(heap)
+
+    if idx < cur_idx:
+        maxi = max(maxi, cur_idx - idx)
+    elif idx > cur_idx:
+        val = cur_val
+        idx = cur_idx
+```
+
+#### Bisect
+``` python
+# time complexity : O(nlogn)
+# space complexity : O(n)
+
+for i in range(n-2, -1, -1):
+    idx = bisect_left(right_maxes, (nums[i], -1))
+    if idx == len(right_maxes):
+        right_maxes.append((nums[i], i))
+    else:
+        res = max(res, right_maxes[idx][1] - i)
+```
+
+#### monotonic stack
+``` python
+# time complexity : O(n) (worst case O(n2))
+# space complexity : O(n)
+
+s = []
+for i in range(len(nums)):
+    if not s or nums[i] < nums[s[-1]]:
+        s.append(i)
+ans = 0
+for i in range(len(nums) - 1, -1, -1):
+    while s and nums[s[-1]] <= nums[i]:
+        ans = max(ans, i - s.pop())
+```
