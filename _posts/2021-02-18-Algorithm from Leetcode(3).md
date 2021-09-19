@@ -104,3 +104,30 @@ class SegmentTree:
 ```
 
 Implement a Segment Tree is the key.
+
+
+## Maximum Earnings From Taxi (leetcode-2008)[https://leetcode.com/problems/maximum-earnings-from-taxi/]
+
+``` python
+# time complexity :  O(nlog(n))
+# space completxity : O(nlog(n))
+
+def dp(idx, memo):
+    if idx >= n:
+        return 0
+
+    if idx not in memo:
+        ans = dp(idx+1, memo)
+
+        s, e, t = rides[idx]
+
+        j = bisect_left(rides, [e, 0, 0])
+
+        ans = max(ans, e - s + t + dp(j, memo))
+
+        memo[idx] = ans
+
+    return memo[idx]
+```
+
+It is a key to use binary search not to get TLE.
