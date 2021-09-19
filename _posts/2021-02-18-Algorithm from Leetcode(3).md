@@ -7,7 +7,7 @@ categories:
 tags:
   - Algorithm
   - Leetcode
-  
+
 classes: wide
 
 last_modified_at: 2021-02-18
@@ -31,7 +31,7 @@ for right in range(1,len(heights)):
 while left < right:
     h = min(heights[left], heights[right])
     res = max(res, h*(right-left))
-    
+
     if heights[left] > heights[right]:
         right -= 1
     else:
@@ -70,41 +70,87 @@ class SegmentTree:
         size = 2*int(2**h + 1)
         self.tree = [0] * (2*size)
         self.build_tree(si, nums, left, right)
-        
+
     def build_tree(self, si, nums, left, right):
         if left == right:
             self.tree[si] = nums[left]
             return nums[left]
-        
+
         mid = (left + right) // 2
         self.tree[si] = self.build_tree(2*si+1, nums, left, mid) + self.build_tree(2*si+2, nums, mid+1, right)
-        
+
         return self.tree[si]
-        
+
     def query(self, si, sl, sr, left, right):
         if left <= sl and sr <= right:
             return self.tree[si]
-        
+
         if left > sr or sl > right:
             return 0
-        
+
         mid = (sl + sr) // 2
         return self.query(2*si+1, sl, mid, left, right) + self.query(2*si+2, mid+1, sr, left, right)
-    
+
     def update(self, si, sl, sr, idx, diff):
         if idx < sl or sr < idx:
             return
-        
+
         self.tree[si] += diff
-        
+
         if sl != sr:
             mid = (sl + sr) // 2
             self.update(2*si+1, sl, mid, idx, diff)
             self.update(2*si+2, mid+1, sr, idx, diff)
 ```
 
-Implement a Segment Tree is the key.
+Implementing a Segment Tree is the key.
 
+## Maximum Width Ramp(leetcode-962)
+
+A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
+
+#### Heap
+``` python
+# time complexity : O(nlogn)
+# space complexity : O(n)
+
+while heap:
+    cur_val, cur_idx = heapq.heappop(heap)
+
+    if idx < cur_idx:
+        maxi = max(maxi, cur_idx - idx)
+    elif idx > cur_idx:
+        val = cur_val
+        idx = cur_idx
+```
+
+#### Bisect
+``` python
+# time complexity : O(nlogn)
+# space complexity : O(n)
+
+for i in range(n-2, -1, -1):
+    idx = bisect_left(right_maxes, (nums[i], -1))
+    if idx == len(right_maxes):
+        right_maxes.append((nums[i], i))
+    else:
+        res = max(res, right_maxes[idx][1] - i)
+```
+
+#### monotonic stack
+``` python
+# time complexity : O(n) (worst case O(n2))
+# space complexity : O(n)
+
+s = []
+for i in range(len(nums)):
+    if not s or nums[i] < nums[s[-1]]:
+        s.append(i)
+ans = 0
+for i in range(len(nums) - 1, -1, -1):
+    while s and nums[s[-1]] <= nums[i]:
+        ans = max(ans, i - s.pop())
+```
 
 ## Maximum Earnings From Taxi (leetcode-2008)[https://leetcode.com/problems/maximum-earnings-from-taxi/]
 
