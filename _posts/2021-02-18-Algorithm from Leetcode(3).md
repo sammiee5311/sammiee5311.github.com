@@ -14,7 +14,7 @@ last_modified_at: 2021-02-18
 
 ---
 
-## Container With Most Water(leetcode-11)
+## Container With Most Water([leetcode-11](https://leetcode.com/problems/container-with-most-water/))
 
 Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
 
@@ -38,7 +38,7 @@ while left < right:
         left += 1
 ```
 
-## Maximum Profit in Job Scheduling(leetcode-1235)
+## Maximum Profit in Job Scheduling([leetcode-1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/))
 
 You're given the startTime, endTime and profit arrays, return the maximum profit you can take such that there are no two jobs in the subset with overlapping time range.
 
@@ -58,7 +58,7 @@ for i in range(1, len(profits)):
 
 It is a key to sort by startTime or endTime and store startTime or endTime in the dp array.
 
-## Range Sum Query - Mutable(leetcode-307)
+## Range Sum Query - Mutable([leetcode-307](https://leetcode.com/problems/range-sum-query-mutable/))
 
 ``` python
 # time complexity :  update : O(U*log(n)) / query : O(Q*log(n))
@@ -105,7 +105,7 @@ class SegmentTree:
 
 Implementing a Segment Tree is the key.
 
-## Maximum Width Ramp(leetcode-962)
+## Maximum Width Ramp([leetcode-962](https://leetcode.com/problems/maximum-width-ramp/))
 
 A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
 
@@ -152,7 +152,7 @@ for i in range(len(nums) - 1, -1, -1):
         ans = max(ans, i - s.pop())
 ```
 
-## Maximum Earnings From Taxi (leetcode-2008)[https://leetcode.com/problems/maximum-earnings-from-taxi/]
+## Maximum Earnings From Taxi([leetcode-2008](https://leetcode.com/problems/maximum-earnings-from-taxi/))
 
 ``` python
 # time complexity :  O(nlog(n))
