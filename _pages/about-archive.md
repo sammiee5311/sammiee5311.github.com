@@ -10,7 +10,7 @@ last_modified_at: 2020-01-07
 
 # HYEONG JUN AN 
 
-- A software engineering student who is interested in Artificial Intelligence, especially computer vision. I have a knowledge of programming and deep learning in order to build a software. (4th year of university) <br>
+- A software engineering student who is interested in Artificial Intelligence, especially computer vision. I am enthusiasm to learn new things and learning quickly. Also, willing to work in any environment. <br>
 
 ## PROJECTS
 

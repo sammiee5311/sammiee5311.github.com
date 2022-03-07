@@ -11,6 +11,8 @@ last_modified_at: 2020-01-05
 
 ---
 
+[(code)](https://github.com/sammiee5311/automated_recycling_machine)
+
 ## Topic 
 
 Sustainable living in the New Normal

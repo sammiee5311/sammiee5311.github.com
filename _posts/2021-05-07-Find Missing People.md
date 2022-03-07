@@ -40,13 +40,13 @@ I created a website that allows people to register and request missing people in
 :------------: | :-----------: |
 <img src="/assets/images/find_missing_people/psersonInfo.png" width="720">  | <img src="/assets/images/find_missing_people/dashboard.gif" width="720"> |
 
-As you can see above images, the first one is a page which shows missing people info and descriptions. ([All the images of people on the website is not real people](https://www.thispersondoesnotexist.com/)
+As you can see above images, the first one is a page which shows missing people info and descriptions. ([All the images of people on the website are not real people](https://www.thispersondoesnotexist.com/)
 ) <br>
 
 On the second image, it is a dashboard where people can check their requests and check the self-driving car took images well enough or not.
 
 <center> <img src="/assets/images/find_missing_people/map.gif" width="720"> </center>
-<center> People can also check missing people by searching on map. </center>
+<center> People can also check missing people by searching on the map. </center>
 
 <br>
     
