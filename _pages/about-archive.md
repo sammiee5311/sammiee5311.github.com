@@ -10,7 +10,11 @@ last_modified_at: 2020-01-07
 
 # HYEONG JUN AN 
 
-- A software engineering student who is interested in Artificial Intelligence, especially computer vision. I am enthusiasm to learn new things and learning quickly. Also, willing to work in any environment. <br>
+- A software engineer who is recently graduated. I am interested in Cloud, Artificial Intelligence, and Infrastructure.
+
+- I am enthusiasm to learn new things and learning quickly. Also, willing to work in any environment.
+
+- currently learning WebApp & Clean Code & Typescript. <br>
 
 ## PROJECTS
 
@@ -52,6 +56,10 @@ last_modified_at: 2020-01-07
     
     - #### Motivation
         - Many people complain about not only getting medicine at working hours but also hard to get it in underdeveloped areas.
+
++ ### Fast Food Application (In Progress)
+    - It is an application that processes an ordering food system. It also calculates food delivery time automatically by a machine learning model.
+    - [to see code](https://github.com/sammiee5311/fast-food-application/)
 
 ## AWARD
 
